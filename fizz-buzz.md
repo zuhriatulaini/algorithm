@@ -1,0 +1,5 @@
+WHILE i LESS THAN N
+STORE currentValue WITH i PLUS 1
+IF (currentValue MODULUS BY 5 EQUAL 0)
+ SET i WITH i PLUS 1
+END WHILE
